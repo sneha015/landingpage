@@ -8,7 +8,7 @@ gem 'bootstrap-sass', '2.3.2.0'
 gem 'sprockets', '2.11.0'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+gem 'sqlite3', '1.3.9'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
