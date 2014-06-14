@@ -1,0 +1,118 @@
+@import "bootstrap";
+
+/* typography */
+body
+{
+ background: url(/assets/landing.png);
+ color:#40B3DF;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;  
+}
+
+
+p
+{
+font-size: 1.3em;	
+}
+
+/*header animation */
+
+
+h1
+{
+color:yellow;
+font-size: 4em;
+position:centre;
+}
+h2
+{
+color:#FFFF00;
+font-size: 2em;
+position:centre;
+}
+
+/* container layout*/
+
+#container
+{
+width:900px;
+height:800px;
+margin:0 auto;
+}
+
+#main
+{
+margin-top:200px;
+width:900px;
+background: rgba(204, 255, 255, .7);
+height: 600px;
+}
+
+#footer
+{
+height:40px;
+}
+
+/* nav bar button */
+
+#bottomright { 
+position: absolute; 
+bottom: 5px; 
+right: 5px; 
+text-align: right; 
+}
+
+#game{
+	width: 300px;
+    height: 100px;
+    background-color: yellow;
+    box-shadow: 10px 10px 5px #888888;
+border-radius: 25px;
+position:centre;
+font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+}
+
+.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64) );
+	background:-moz-linear-gradient( center top, #ffab23 5%, #ffec64 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64');
+	background-color:#ffab23;
+}.button:active {
+	position:relative;
+	top:1px;
+}/* This button was generated using CSSButtonGenerator.com */
+
+.button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23) );
+	background:-moz-linear-gradient( center top, #ffec64 5%, #ffab23 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23');
+	background-color:#ffec64;
+	-webkit-border-top-left-radius:15px;
+	-moz-border-radius-topleft:15px;
+	border-top-left-radius:15px;
+	-webkit-border-top-right-radius:15px;
+	-moz-border-radius-topright:15px;
+	border-top-right-radius:15px;
+	border:1px solid #ffaa22;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:800px;
+	line-height:400px;
+	width:300px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ffee66;
+}
+
+
